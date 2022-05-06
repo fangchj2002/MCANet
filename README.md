@@ -1,8 +1,8 @@
 #  Deep Speaker: speaker recognition system
 
 Data Set: [LibriSpeech](http://www.openslr.org/12/)  
-Reference paper: [Deep Speaker: an End-to-End Neural Speaker Embedding System](https://arxiv.org/pdf/1705.02304.pdf)  
-Reference code : https://github.com/philipperemy/deep-speaker (Thanks to Philippe Rémy)  
+Reference paper: [MTANet: lightweight multi-scale temporal attention network for speaker recognition
+
   
 This code was trained on librispeech-train-clean dataset, tested on librispeech-test-clean dataset. In my code, librispeech dataset shows ~5% EER with CNN model.   
   
@@ -30,9 +30,7 @@ This code was trained on librispeech-train-clean dataset, tested on librispeech-
 <div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://github.com/Walleclipse/Deep_Speaker-speaker_recognition_system/raw/master/demo/loss.png"  width="400" ></div>
 <div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://github.com/Walleclipse/Deep_Speaker-speaker_recognition_system/raw/master/demo/EER.png" width="400" ></div>  
 
-## More Details  
-  If you want to know more details, please read [deep_speaker_report.pdf](deep_speaker_report.pdf) (English) or [deep_speaker实验报告.pdf](deep_speaker实验报告.pdf) (中文). 
- 
+
  ## Simple Use
 1. Preprare data.   
 I provide the sample data in `audio/LibriSpeechSamples/` or you can download full  [LibriSpeech](http://www.openslr.org/12/)  data or prepare your own data.   
