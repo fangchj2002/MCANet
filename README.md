@@ -24,11 +24,6 @@ This is for pre-training on softmax classification loss.
 `pre_process.py`    
 Load the utterance, filter out the mute(过滤静音), extract the fbank feature and save the module in .npy format.(提取fbank特征，以.npy格式保存模块) 
   
-## Experimental Results  
-This code was trained on librispeech-train-clean dataset, tested on librispeech-test-clean dataset. In my code, librispeech dataset shows ~5% EER with CNN model. 
-  
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://github.com/Walleclipse/Deep_Speaker-speaker_recognition_system/raw/master/demo/loss.png"  width="400" ></div>
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://github.com/Walleclipse/Deep_Speaker-speaker_recognition_system/raw/master/demo/EER.png" width="400" ></div>  
 
 
  ## Simple Use
