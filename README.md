@@ -1,4 +1,4 @@
-#  Deep Speaker: speaker recognition system
+#  MTANet: lightweight multi-scale temporal attention network for speaker recognition
 
 Data Set: [LibriSpeech](http://www.openslr.org/12/)  
 Reference paper: [MTANet: lightweight multi-scale temporal attention network for speaker recognition
